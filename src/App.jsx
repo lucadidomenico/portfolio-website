@@ -4,9 +4,13 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Portfolio from "./components/Portfolio";
 import Timeline from "./components/Timeline";
+import Menu from "./components/Menu";
+import About from "./components/About";
+import Services from "./components/Services";
 
 function App() {
   const [theme, setTheme] = useState(null);
+  const [menuOpened, setMenuOpened] = useState(false);
 
   useEffect(() => {
     if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
@@ -18,6 +22,10 @@ function App() {
 
   const handleThemeSwitch = () => {
     setTheme(theme === "dark" ? "light" : "dark");
+  };
+
+  const handleMenuClick = () => {
+    setMenuOpened(!menuOpened);
   };
 
   useEffect(() => {
@@ -62,6 +70,40 @@ function App() {
     </svg>
   );
 
+  const menu = (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke-width="1.5"
+      stroke="currentColor"
+      class="w-6 h-6"
+    >
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+      />
+    </svg>
+  );
+
+  const close = (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke-width="1.5"
+      stroke="currentColor"
+      class="w-6 h-6"
+    >
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        d="M6 18L18 6M6 6l12 12"
+      />
+    </svg>
+  );
+
   return (
     <>
       <button
@@ -71,12 +113,21 @@ function App() {
       >
         {theme === "dark" ? sun : moon}
       </button>
-      <div className="bg-white dark:bg-stone-900 text-stone-900 dark:text-stone-300 min-h-screen font-inter">
-        <div className=" max-w-5xl w-11/12 mx-auto">
-          {" "}
+      <button
+        type="button"
+        onClick={handleMenuClick}
+        className="xl:hidden fixed p-2 z-10 right-8 top-4 bg-violet-300 dark:bg-orange-300 text-lg p-1 rounded-md"
+      >
+        {menuOpened ? close : menu}
+      </button>
+      <div className="flex flex-row bg-white dark:bg-stone-900 text-stone-900 dark:text-stone-300 min-h-screen font-inter">
+        <Menu />
+        <div className="flex flex-col max-w-4xl w-4/5 mx-auto 2xl:mx-auto">
           <Intro />
-          <Portfolio />
+          <About />
           <Timeline />
+          <Services />
+          <Portfolio />
           <Contact />
           <Footer />
         </div>

@@ -5,7 +5,7 @@ function Footer() {
     <div className="py-5 text-center">
       {/* {social icons} */}
       <p className="text-sm mt-2 opacity-50">
-        &copy; {new Date().getFullYear()} Forrest Knight. All rights reserved.
+        &copy; {new Date().getFullYear()} Luca Di Domenico. All rights reserved.
       </p>
     </div>
   );
