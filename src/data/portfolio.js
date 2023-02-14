@@ -1,20 +1,14 @@
 export default [
   {
-    title: "Terminal Website",
-    imgUrl: "/assets/ai-nerf-gun.jpg",
-    stack: ["HTML", "CSS", "JavaScript"],
-    link: "www.google.com",
+    title: "Git-Gate - Tokenized Repository Access",
+    imgUrl: "/assets/gitgate.png",
+    stack: ["Solidity", "Ethereum", "Nodejs", "NextJS"],
+    link: "https://web-gitgate.vercel.app/",
   },
   {
-    title: "Developer Portfolio",
-    imgUrl: "/assets/dev-portfolio.jpg",
-    stack: ["HTML", "CSS", "JavaScript"],
-    link: "www.facebook.com",
-  },
-  {
-    title: "AI Nerf Gun",
-    imgUrl: "/assets/terminal-website.jpg",
-    stack: ["HTML", "CSS", "JavaScript"],
-    link: "www.youtube.com",
+    title: "Remora - Uncollateralized Lending Protocol",
+    imgUrl: "/assets/Remora.png",
+    stack: ["Solidity", "Ethereum", "Filecoin", "Nodejs", "ReactJS"],
+    link: "https://frontend-remora.vercel.app/",
   },
 ];

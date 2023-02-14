@@ -5,7 +5,7 @@ import Title from "./Title";
 
 function Timeline() {
   return (
-    <div id="experience" className="flex flex-col md:flex-row">
+    <div id="experience" className="flex flex-col md:flex-row my-20">
       <div className="w-full md:w-9/12">
         <Title>Experience</Title>
         {timeline.map((item) => (

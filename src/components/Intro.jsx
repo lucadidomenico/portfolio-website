@@ -32,6 +32,12 @@ function Intro() {
         and Trainer.
       </p>
       <div className="flex flex-row">
+        <a href="mailto:info@lucadidomenico.dev" target={"_blank"}>
+          <img
+            src="/assets/mail.png"
+            className="w-10 h-10 md:w-16 md:h-16 p-2"
+          ></img>
+        </a>
         <a
           href="https://www.linkedin.com/in/luca-di-domenico/"
           target={"_blank"}

@@ -6,7 +6,7 @@ import Title from "./Title";
 function Portfolio() {
   return (
     <div id="portfolio" className=" my-20 ">
-      <Title>My Portfolio</Title>
+      <Title>My Opensource Portfolio</Title>
       <div className="flex flex-col md:flex-row items-center">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-20">
           {portfolio.map((project) => (
