@@ -5,7 +5,7 @@ import Button from "./Button";
 
 function About() {
   return (
-    <div id="about" className="flex flex-col items-center my-20 md:flex-row">
+    <div id="about" className="flex flex-col items-center md:flex-row">
       <div className="w-full md:w-10/12">
         <Title>About Me</Title>
         <div className="flex flex-col justify-between md:flex-row md:items-center">
