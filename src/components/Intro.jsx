@@ -31,6 +31,26 @@ function Intro() {
         years of experience as Software Security Consultant, Software Developer
         and Trainer.
       </p>
+      <div className="flex flex-row">
+        <a
+          href="https://www.linkedin.com/in/luca-di-domenico/"
+          target={"_blank"}
+        >
+          <img src="/assets/linkedin.png" className="w-16 h-16 p-2"></img>
+        </a>
+        <a href="https://twitter.com/luca_dd7" target={"_blank"}>
+          <img src="/assets/twitter.png" className="w-16 h-16 p-2"></img>
+        </a>
+        <a href="https://github.com/lucadidomenico" target={"_blank"}>
+          <img src="/assets/github.png" className="w-16 h-16 p-2"></img>
+        </a>
+        <a href="https://discordapp.com/users/luca_dd7#1566" target={"_blank"}>
+          <img src="/assets/discord.png" className="w-16 h-16 p-2"></img>
+        </a>
+        <a href="https://t.me/Luca_dd" target={"_blank"}>
+          <img src="/assets/telegram.png" className="w-16 h-16 p-2"></img>
+        </a>
+      </div>
     </div>
   );
 }

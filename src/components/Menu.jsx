@@ -12,13 +12,25 @@ function Menu() {
         </h1>
       </div>
       <div className="flex flex-col items-center">
-        <a href="#intro">Home</a>
-        <a href="#about">About</a>
-        <a href="#experience">Experience</a>
-        <a href="#services">Service</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#blog">Blog</a>
-        <a href="#contact">Contact</a>
+        <a href="#intro" className="text-xl">
+          Home
+        </a>
+        <a href="#about" className="text-xl">
+          About
+        </a>
+        <a href="#services" className="text-xl">
+          Service
+        </a>
+        <a href="#experience" className="text-xl">
+          Experience
+        </a>
+        <a href="#portfolio" className="text-xl">
+          Portfolio
+        </a>
+        {/* <a href="#blog">Blog</a> */}
+        <a href="#contact" className="text-xl">
+          Contact
+        </a>
       </div>
       <div className="flex flex-col items-center text-center pb-10">
         <p className="text-sm mt-2 opacity-50">
