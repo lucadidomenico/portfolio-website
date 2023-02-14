@@ -15,11 +15,11 @@ function Menu() {
         <a href="#intro" className="text-xl">
           Home
         </a>
-        <a href="#about" className="text-xl">
-          About
-        </a>
         <a href="#services" className="text-xl">
           Service
+        </a>
+        <a href="#about" className="text-xl">
+          About
         </a>
         <a href="#experience" className="text-xl">
           Experience

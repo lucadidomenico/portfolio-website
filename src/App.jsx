@@ -124,8 +124,8 @@ function App() {
         <Menu />
         <div className="flex flex-col max-w-4xl w-4/5 mx-auto 2xl:mx-auto">
           <Intro />
-          <About />
           <Services />
+          <About />
           <Timeline />
           <Portfolio />
           <Contact />
