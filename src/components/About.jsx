@@ -12,7 +12,7 @@ function About() {
           <img
             src="/assets/profile.jpg"
             alt="profile"
-            className="w-52 h-80 md:w-64 md:h-96 self-center object-cover md:w-4/12"
+            className="w-52 h-80 md:w-64 md:h-96 self-center object-cover md:w-4/12 border-solid border-4 border-black dark:border-white"
           ></img>
           <div className="flex flex-col md:w-7/12">
             <h1 className="text-3xl dark:text-white mb-1 mt-5 md:mb-3 font-bold">

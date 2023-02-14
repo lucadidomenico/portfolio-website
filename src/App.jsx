@@ -116,7 +116,7 @@ function App() {
       <button
         type="button"
         onClick={handleMenuClick}
-        className="xl:hidden fixed p-2 z-10 right-8 top-4 bg-violet-300 dark:bg-orange-300 text-lg p-1 rounded-md"
+        className="xl:hidden fixed p-2 z-10 right-8 top-4 bg-white-300 dark:bg-orange-300 text-lg p-1 rounded-md"
       >
         {menuOpened ? close : menu}
       </button>

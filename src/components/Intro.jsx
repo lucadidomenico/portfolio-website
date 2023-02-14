@@ -1,4 +1,5 @@
 import React from "react";
+import Typed from "react-typed";
 
 function Intro() {
   return (
@@ -9,11 +10,21 @@ function Intro() {
       <img
         src="/assets/profile.jpg"
         alt="profile"
-        className="w-72 h-72 md:h-72 md:w-72 object-cover rounded-full"
+        className="w-72 h-72 object-cover rounded-full border-solid border-4 border-black	dark:border-white"
       ></img>
 
       <p className="text-base md:text-xl mb-3 font-medium pt-10">
-        Blockchain Engineer
+        <Typed
+          strings={[
+            "I'm a Blockchain Engineer",
+            "I'm a Security Expert",
+            "I'm a Software Developer",
+            "I'm a Trainer",
+          ]}
+          typeSpeed={100}
+          backSpeed={50}
+          loop
+        />
       </p>
       <p className="text-sm max-w-xl mb-6 font-bold">
         I'm a Blockchain Engineer with high technical background due to my 6
