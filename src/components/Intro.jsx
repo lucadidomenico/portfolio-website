@@ -27,9 +27,9 @@ function Intro() {
         />
       </p>
       <p className="text-sm max-w-xl mb-6 font-bold">
-        I'm a Blockchain Engineer with high technical background due to my 6
-        years of experience as Software Security Consultant, Software Developer
-        and Trainer.
+        I'm a Blockchain Engineer obsessed with technical details. I have 6
+        years of experience as a Software Security Consultant, Software
+        Developer, and Trainer.
       </p>
       <div className="flex flex-row">
         <a href="mailto:info@lucadidomenico.dev" target={"_blank"}>

@@ -1,30 +1,23 @@
 export default [
   {
-    title: "Blockchain Development",
+    title: "Blockchain Development & Consulting",
     description:
-      "Lorem Ipsum Dolor, Sit Amet Consectetur Adipisicing Elit. Ex Repellendus Porro Facilis.",
+      "Smart contract development on EVM. Blockchain integration into existing products/services.",
     imgUrl: "/assets/solidity-original.svg",
-    stack: ["HTML", "CSS", "JavaScript"],
+    stack: ["Solidity", "EVM", "Javascript"],
   },
   {
     title: "Software Security Consultant",
     description:
-      "Lorem Ipsum Dolor, Sit Amet Consectetur Adipisicing Elit. Ex Repellendus Porro Facilis.",
+      "(Web3) Application Security. Penetration Testing. Secure Code Review.",
     imgUrl: "/assets/solidity-original.svg",
-    stack: ["HTML", "CSS", "JavaScript"],
+    stack: ["AppSec", "Exploit", "Penetration Test", "Code Review"],
   },
   {
     title: "Training",
     description:
-      "Lorem Ipsum Dolor, Sit Amet Consectetur Adipisicing Elit. Ex Repellendus Porro Facilis.",
+      "Certified Blockchain Developer course training (preparation to exam).",
     imgUrl: "/assets/solidity-original.svg",
-    stack: ["HTML", "CSS", "JavaScript"],
-  },
-  {
-    title: "Software Developer",
-    description:
-      "Lorem Ipsum Dolor, Sit Amet Consectetur Adipisicing Elit. Ex Repellendus Porro Facilis.",
-    imgUrl: "/assets/solidity-original.svg",
-    stack: ["HTML", "CSS", "JavaScript"],
+    stack: ["Blockchain", "AppSec", "SecureCode"],
   },
 ];
