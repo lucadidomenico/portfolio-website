@@ -4,7 +4,7 @@ function Menu() {
   return (
     <div
       id="menu"
-      className="hidden xl:fixed xl:flex xl:flex-col xl:w-1/5 xl:h-full xl:items-center xl:justify-between xl:pr-20"
+      className="hidden xl:fixed xl:flex xl:flex-col xl:w-1/5 xl:h-full xl:items-center xl:justify-between xl:px-20 xl:border-r-2	xl:bg-slate-100"
     >
       <div className="pt-10">
         <h1 className="text-4xl md:text-6xl dark:text-white mb-1 md:mb-3 font-bold">
