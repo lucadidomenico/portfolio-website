@@ -122,7 +122,7 @@ function App() {
       </button>
       <div className="flex flex-row bg-white dark:bg-stone-900 text-stone-900 dark:text-stone-300 min-h-screen font-inter">
         <Menu />
-        <div className="flex flex-col max-w-4xl w-4/5 mx-auto xl:px-20">
+        <div className="flex flex-col max-w-4xl w-4/5 mx-auto xl:pl-20">
           <Intro />
           <Services />
           <About />
