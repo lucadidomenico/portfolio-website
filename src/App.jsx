@@ -9,32 +9,32 @@ import About from "./components/About";
 import Services from "./components/Services";
 
 function App() {
-  const [theme, setTheme] = useState(null);
+  // const [theme, setTheme] = useState(null);
   const [menuOpened, setMenuOpened] = useState(false);
 
-  useEffect(() => {
-    if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-      setTheme("dark");
-    } else {
-      setTheme("light");
-    }
-  }, []);
+  // useEffect(() => {
+  //   if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+  //     setTheme("dark");
+  //   } else {
+  //     setTheme("light");
+  //   }
+  // }, []);
 
-  const handleThemeSwitch = () => {
-    setTheme(theme === "dark" ? "light" : "dark");
-  };
+  // const handleThemeSwitch = () => {
+  //   setTheme(theme === "dark" ? "light" : "dark");
+  // };
 
   const handleMenuClick = () => {
     setMenuOpened(!menuOpened);
   };
 
-  useEffect(() => {
-    if (theme === "dark") {
-      document.documentElement.classList.add("dark");
-    } else {
-      document.documentElement.classList.remove("dark");
-    }
-  }, [theme]);
+  // useEffect(() => {
+  //   if (theme === "dark") {
+  //     document.documentElement.classList.add("dark");
+  //   } else {
+  //     document.documentElement.classList.remove("dark");
+  //   }
+  // }, [theme]);
 
   const sun = (
     <svg
@@ -106,20 +106,20 @@ function App() {
 
   return (
     <>
-      <button
+      {/* <button
         type="button"
         onClick={handleThemeSwitch}
         className="fixed p-2 z-10 right-20 top-4 bg-violet-300 dark:bg-orange-300 text-lg p-1 rounded-md"
       >
         {theme === "dark" ? sun : moon}
-      </button>
-      <button
+      </button> */}
+      {/* <button
         type="button"
         onClick={handleMenuClick}
         className="xl:hidden fixed p-2 z-10 right-8 top-4 bg-white-300 dark:bg-orange-300 text-lg p-1 rounded-md"
       >
         {menuOpened ? close : menu}
-      </button>
+      </button> */}
       <div className="flex flex-row bg-white dark:bg-stone-900 text-stone-900 dark:text-stone-300 min-h-screen font-inter">
         <Menu />
         <div className="flex flex-col max-w-4xl w-4/5 mx-auto xl:pl-20">
