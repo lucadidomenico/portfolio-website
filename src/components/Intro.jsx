@@ -18,8 +18,8 @@ function Intro() {
           strings={[
             "I'm a Blockchain Engineer",
             "I'm a Security Expert",
-            "I'm a Software Developer",
             "I'm a Trainer",
+            "I'm a Software Developer",
           ]}
           typeSpeed={100}
           backSpeed={50}

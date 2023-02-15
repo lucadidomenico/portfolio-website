@@ -12,23 +12,23 @@ function Menu() {
         </h1>
       </div>
       <div className="flex flex-col items-center">
-        <a href="#intro" className="text-xl">
+        <a href="#intro" className="text-xl hover:underline">
           Home
         </a>
-        <a href="#services" className="text-xl">
+        <a href="#services" className="text-xl hover:underline">
           Service
         </a>
-        <a href="#about" className="text-xl">
+        <a href="#about" className="text-xl hover:underline">
           About
         </a>
-        <a href="#experience" className="text-xl">
+        <a href="#experience" className="text-xl hover:underline">
           Experience
         </a>
-        <a href="#portfolio" className="text-xl">
+        <a href="#portfolio" className="text-xl hover:underline">
           Portfolio
         </a>
         {/* <a href="#blog">Blog</a> */}
-        <a href="#contact" className="text-xl">
+        <a href="#contact" className="text-xl hover:underline">
           Contact
         </a>
       </div>
