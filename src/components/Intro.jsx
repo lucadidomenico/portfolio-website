@@ -28,8 +28,10 @@ function Intro() {
       </p>
       <p className="text-sm max-w-xl mb-6 font-bold">
         I work at the interception between Software Development and Software
-        Security. I have 6 years of experience as a Software Security
-        Consultant, Software Developer, and Trainer.
+        Security. I work at the interception between Software Development and
+        Software Security. I have an overall experience of 6 years in the IT
+        field as a Software Security Consultant , Blockchain Engineer, and
+        Trainer.
       </p>
       <div className="flex flex-row">
         <a href="mailto:info@lucadidomenico.dev" target={"_blank"}>
