@@ -27,8 +27,8 @@ function About() {
             comprehension of how it works.
             <AboutItem classe="pt-1" name="Age" value="29" />
             <AboutItem name="Gender" value="Man" />
-            <AboutItem name="Language" value="English, Italian" />
-            <AboutItem classe="pb-2" name="Role" value="Blockchain Engineer" />
+            <AboutItem classe="pb-2" name="Language" value="English, Italian" />
+            {/* <AboutItem classe="pb-2" name="Role" value="Blockchain Engineer" /> */}
             {/* <AboutItem classe="pb-2" name="Freelance" value="Available" /> */}
             <Button />
           </div>
